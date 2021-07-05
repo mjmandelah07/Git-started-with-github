@@ -1,0 +1,61 @@
+                    GIT STARTED WITH GITHUB 
+Git is a file and  open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+It is used to track the changes you make to files, so you have a record of what has been done and you can revert to specific versiond should you ever need to.
+
+
+                   A. CORE CONCEPTS
+Repository contains of files, history, config manged by Gt.
+
+                 B.  THREE STATES OF GIT
+1. Working directory
+2. Staging area- Pre commit holding area
+3. Commit - Git repository (history)
+
+
+
+              C. REMOTE REPOSITORY (GITHUB)
+    
+              D. MASTER BRANCH
+
+
+                                
+
+                                    GIT CONFIGURATION
+git  config   --global  user.name  "name"
+git config    --global  user.email  "email"
+git config   --global   --list      (To check your details on git)
+
+
+                 ADD FILE TO GITHUB USING GIT BASH
+1. Go to the path you want to  push to github
+
+2. git  init- To initialize the repository used to create a new empty repository or directory consisting of files with the hidden directory.
+
+3. git  add  .   - To add all the files in the path you are.
+
+4. git status - To view all the files which are going to be staged to the first commit.
+
+5.  git commit  -m  "your message"  - To create a commit message which adds to the changes to the local repository.
+
+6.  git commit  -m  -  Use it as flag for a message to set the commits witht the content where the full description is included and a message is written in an imperative sentence up to 50 characters long and defining "what was changed" and "why was the changes made.
+
+7. Copy your remote repository's URL from GITHUB.
+
+8. git remote add origin  "YOUR_URL_NAME"  (the 'origin' is the remote name)
+
+9. git remote -v 
+
+10. git push -u origin master  - Used to push loacl content to github.
+
+     
+
+                        TO UPDATE  YOUR REPOSITORY ON GITHUB
+
+1. git add 'filename'
+
+2. git commit -m "initial commit"
+
+3. git remote -v
+
+4. git push origin master
+
